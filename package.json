@@ -1,0 +1,27 @@
+{
+  "name": "card-number-validator",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava test/test.js"
+  },
+  "keywords": [],
+  "author": "scrum",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "esm": "^3.2.25",
+    "xo": "^0.24.0"
+  },
+  "ava": {
+    "babel": false,
+    "compileEnhancements": false,
+    "require": [
+      "esm"
+    ]
+  },
+  "xo": {
+    "space": true
+  }
+}
